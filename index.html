@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Renovation YAMA</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="split-background">
+      <header>
+        <div class="brand-name">
+          <img src="img/logo.png" alt="YAMADA Logo" />
+        </div>
+        <button class="menu-toggle" id="menu-toggle">
+          <img src="img/hamburger-icon.png" alt="Menu" />
+        </button>
+        <nav class="mobile-nav" id="mobile-nav">
+          <ul>
+            <li><a href="#top">TOP</a></li>
+            <li><a href="#articles">ARTICLES</a></li>
+            <li><a href="#select-photo">SELECT PHOTOS</a></li>
+            <li><a href="#follow-us">FOLLOW US</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="banner">
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <img src="img/mv01.png" style="width: 100%" />
+            </div>
+            <div class="mySlides fade">
+              <img src="img/mv02.png" style="width: 100%" />
+            </div>
+            <div class="mySlides fade">
+              <img src="img/mv03.png" style="width: 100%" />
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+        </section>
+        <div class="content-container">
+          <section class="articles" id="articles">
+            <h2>ARTICLES</h2>
+            <div class="articles-grid">
+              <article class="article-item">
+                <img
+                  src="img/articles01.png"
+                  alt="Article Image"
+                  class="article-image"
+                />
+                <div class="article-content">
+                  <p class="article-date">19.feb.2024</p>
+                  <div class="article-category">RENOVATION</div>
+                  <p class="article-title">
+                    高級リフォームでプレミアムな空間づくり。
+                  </p>
+                  <p class="article-subtitle">事例と会社選びのコツ</p>
+                </div>
+              </article>
+              <article class="article-item">
+                <img
+                  src="img/articles02.png"
+                  alt="Article Image"
+                  class="article-image"
+                />
+                <div class="article-content">
+                  <p class="article-date">2.feb.2024</p>
+                  <div class="article-category">RENOVATION</div>
+                  <p class="article-title">
+                    高級リノベーションで 「高級住宅」 が生まれる？
+                  </p>
+                  <p class="article-subtitle">事例とこだわりポイント</p>
+                </div>
+              </article>
+              <article class="article-item">
+                <img
+                  src="img/articles03.png"
+                  alt="Article Image"
+                  class="article-image"
+                />
+                <div class="article-content">
+                  <p class="article-date">25.jan.2024</p>
+                  <div class="article-category">INTERVIEW</div>
+                  <p class="article-title">お客様インタビューvol.28</p>
+                  <p class="article-subtitle">
+                    「ゆるやかにつながる快適ワンルーム」
+                  </p>
+                </div>
+              </article>
+              <article class="article-item">
+                <img
+                  src="img/articles04.png"
+                  alt="Article Image"
+                  class="article-image"
+                />
+                <div class="article-content">
+                  <p class="article-date">11.jan.2024</p>
+                  <div class="article-category">INTERIOR</div>
+                  <p class="article-title">
+                    『バイオエタノール暖炉』で贅沢なひとき。
+                  </p>
+                  <p class="article-subtitle">価格は？燃費は？</p>
+                </div>
+              </article>
+            </div>
+          </section>
+          <section class="photo-selection" id="select-photo">
+            <h2>Select Photo</h2>
+            <div class="photo-grid">
+              <div class="photo-item">
+                <img src="img/select01.png" alt="Interior 1" />
+              </div>
+              <div class="photo-item">
+                <img src="img/select02.png" alt="Interior 2" />
+              </div>
+              <div class="photo-item">
+                <img src="img/select03.png" alt="Interior 2" />
+              </div>
+              <div class="photo-item">
+                <img src="img/select04.png" alt="Interior 2" />
+              </div>
+              <div class="photo-item">
+                <img src="img/select05.png" alt="Interior 2" />
+              </div>
+              <div class="photo-item">
+                <img src="img/select06.png" alt="Interior 2" />
+              </div>
+              <div class="photo-item">
+                <img src="img/select07.png" alt="Interior 2" />
+              </div>
+              <div class="photo-item">
+                <img src="img/select08.png" alt="Interior 2" />
+              </div>
+              <div class="photo-item">
+                <img src="img/select09.png" alt="Interior 2" />
+              </div>
+            </div>
+          </section>
+          <section class="keyword-selection" id="select-keyword">
+            <h2><br />SELECT TYPE KEYWORD<br /><br /></h2>
+            <div class="keywords">
+              <button class="keyword">マンション</button>
+              <button class="keyword">一戸建て</button>
+              <button class="keyword">スケルトン</button>
+              <button class="keyword">大規模</button>
+              <button class="keyword">ツーバイフォー</button>
+              <button class="keyword">セカンドハウス</button>
+              <button class="keyword">二世帯住宅</button>
+            </div>
+          </section>
+          <section class="keyword-selection-b" id="select-room">
+            <h2><br /><br />SELECT ROOM KEYWORD<br /><br /></h2>
+            <div class="keywordsb">
+              <button class="keywordb">キッチン</button>
+              <button class="keywordb">ダイニング</button>
+              <button class="keywordb">トイレ</button>
+              <button class="keywordb">ベッドルーム</button>
+              <button class="keywordb">テラス</button>
+              <button class="keywordb">和室</button>
+              <button class="keywordb">廊下</button>
+              <button class="keywordb">浴室</button>
+              <button class="keywordb">クローゼット</button>
+            </div>
+          </section>
+          <section class="follow-us" id="follow-us">
+            <h2><br /><br />FOLLOW US</h2>
+            <div class="social-media">
+              <a href="#" class="social-icon instagram"
+                ><img src="img/insta.png" alt="Instagram"
+              /></a>
+              <a href="#" class="social-icon twitter"
+                ><img src="img/x.png" alt="Twitter"
+              /></a>
+              <a href="#" class="social-icon youtube"
+                ><img src="img/youtube.jpg" alt="Youtube"
+              /></a>
+            </div>
+          </section>
+          <section class="banner-section">
+            <img
+              src="img/bunner_yamada.png"
+              alt="Yamada Banner"
+              class="full-width-banner"
+            />
+            <img
+              src="img/bunner_int.png"
+              alt="Interior Banner"
+              class="full-width-banner"
+            />
+          </section>
+        </div>
+      </main>
+    </div>
+    <footer class="site-footer">
+      <div class="footer-links">
+        <a href="#articles">ARTICLES</a>
+        <a href="#select-photo">SELECT PHOTO</a>
+        <a href="#select-keyword">SELECT TYPE KEYWORD</a>
+        <a href="#select-room">SELECT ROOM KEYWORD</a>
+      </div>
+      <div class="footer-info">
+        <table>
+          <tr>
+            <th>Shop NAME</th>
+            <td>Renovation YAMA</td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <th>Web SITE</th>
+            <td>renovationyama.com</td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <th>Address</th>
+            <td>大阪府大阪市北区大深町3-1<br />グランフロント大阪 北館</td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <th>Telephone</th>
+            <td>06-1234-5678</td>
+          </tr>
+        </table>
+      </div>
+    </footer>
+    <div class="footer-bottom">
+      <p>Copyright 2023 YAMA Co., Ltd. All rights reserved.</p>
+    </div>
+    <script src="script/script.js"></script>
+  </body>
+</html>
